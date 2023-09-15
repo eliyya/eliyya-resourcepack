@@ -1,0 +1,15 @@
+{
+	"texture": "textures/entity/creeper/head_creeper",
+	"textureSize": [64, 32],
+	"models": [
+		{
+			"part": "head",
+			"id": "creeper_head",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0],
+			"boxes": [
+				{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [8, 0]}
+			]
+		}
+	]
+}

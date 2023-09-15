@@ -1,0 +1,1127 @@
+{
+	"textureSize": [1024, 512],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -18, 0],
+			"boxes": [
+				{"coordinates": [-4, 18, -4, 8, 8, 8], "textureOffset": [0, 0]}
+			]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [-2, -6, 4],
+			"boxes": [
+				{"coordinates": [-4, 0, -6, 4, 6, 4], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [2, -6, 4],
+			"boxes": [
+				{"coordinates": [0, 0, -6, 4, 6, 4], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [-2, -6, -4],
+			"boxes": [
+				{"coordinates": [-4, 0, 2, 4, 6, 4], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [2, -6, -4],
+			"boxes": [
+				{"coordinates": [0, 0, 2, 4, 6, 4], "textureOffset": [0, 16]}
+			]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -6, 0],
+			"boxes": [
+				{"coordinates": [-4, 6, -2, 8, 12, 4], "textureOffset": [16, 16]}
+			],
+			"submodels": [
+				{
+					"id": "bodies",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"submodels": [
+						{
+							"id": "beach_creepers",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"submodels": [
+								{
+									"id": "body_beach",
+									"invertAxis": "xy",
+									"translate": [0, 5, 0],
+									"boxes": [
+										{"coordinates": [-3, 0, -2, 6, 9, 4], "textureOffset": [896, 144]}
+									],
+									"submodels": [
+										{
+											"id": "head_beach",
+											"invertAxis": "xy",
+											"translate": [0, 9, 0],
+											"boxes": [
+												{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [896, 128]},
+												{"coordinates": [-4, 8, -2, 3, 1, 3], "textureOffset": [920, 128]},
+												{"coordinates": [0, 8, 0, 4, 4, 2], "textureOffset": [928, 139]}
+											]
+										}
+									]
+								},
+								{
+									"id": "leg1_beach",
+									"invertAxis": "xy",
+									"translate": [2, 7, -4],
+									"boxes": [
+										{"coordinates": [-6, -7, -2, 4, 7, 4], "textureOffset": [916, 144]}
+									]
+								},
+								{
+									"id": "leg2_beach",
+									"invertAxis": "xy",
+									"translate": [-2, 7, -4],
+									"boxes": [
+										{"coordinates": [2, -7, -2, 4, 7, 4], "textureOffset": [912, 155]}
+									]
+								},
+								{
+									"id": "leg3_beach",
+									"invertAxis": "xy",
+									"translate": [2, 7, 4],
+									"boxes": [
+										{"coordinates": [-6, -7, -2, 4, 7, 4], "textureOffset": [896, 157]}
+									]
+								},
+								{
+									"id": "leg4_beach",
+									"invertAxis": "xy",
+									"translate": [-2, 7, 4],
+									"boxes": [
+										{"coordinates": [2, -7, -2, 4, 7, 4], "textureOffset": [928, 128]}
+									]
+								}
+							]
+						},
+						{
+							"id": "badlands_creepers",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"submodels": [
+								{
+									"id": "body_badlands",
+									"invertAxis": "xy",
+									"translate": [0, 5, 0],
+									"boxes": [
+										{"coordinates": [-6, 0, -6, 12, 21, 12], "textureOffset": [768, 0]},
+										{"coordinates": [-3, 21, -2, 4, 5, 4], "textureOffset": [808, 45]},
+										{"coordinates": [-3, 21, -3, 4, 6, 6], "textureOffset": [768, 45]},
+										{"coordinates": [-4, 21, -2, 6, 5, 4], "textureOffset": [788, 45]}
+									]
+								},
+								{
+									"id": "leg1_badlands",
+									"invertAxis": "xy",
+									"translate": [-4.5, 7, -5.5],
+									"boxes": [
+										{"coordinates": [-2.5, -7, -2.5, 5, 7, 5], "textureOffset": [768, 33]}
+									]
+								},
+								{
+									"id": "leg2_badlands",
+									"invertAxis": "xy",
+									"translate": [4.5, 7, -5.5],
+									"boxes": [
+										{"coordinates": [-2.5, -7, -2.5, 5, 7, 5], "textureOffset": [788, 33]}
+									]
+								},
+								{
+									"id": "leg3_badlands",
+									"invertAxis": "xy",
+									"translate": [-4.5, 7, 5.5],
+									"boxes": [
+										{"coordinates": [-2.5, -7, -2.5, 5, 7, 5], "textureOffset": [804, 0]}
+									]
+								},
+								{
+									"id": "leg4_badlands",
+									"invertAxis": "xy",
+									"translate": [4.5, 7, 5.5],
+									"boxes": [
+										{"coordinates": [-2.5, -7, -2.5, 5, 7, 5], "textureOffset": [808, 33]}
+									]
+								}
+							]
+						},
+						{
+							"id": "bamboo_creepers",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"submodels": [
+								{
+									"id": "body_bamboo",
+									"invertAxis": "xy",
+									"translate": [0, 5, 0],
+									"boxes": [
+										{"coordinates": [-1.5, 0, -1.5, 3, 20, 3], "textureOffset": [850, 14]},
+										{"coordinates": [-4.5, 2, 0, 9, 18, 0], "textureOffset": [832, 14]}
+									],
+									"submodels": [
+										{
+											"id": "head_bamboo",
+											"invertAxis": "xy",
+											"translate": [0, 20, 0],
+											"boxes": [
+												{"coordinates": [-3.5, 0, -3.5, 7, 7, 7], "textureOffset": [832, 0]},
+												{"coordinates": [-6.5, 0, 0, 13, 4, 0], "textureOffset": [853, 0]}
+											]
+										}
+									]
+								},
+								{
+									"id": "leg1_bamboo",
+									"invertAxis": "xy",
+									"translate": [-2, 6, -2],
+									"boxes": [
+										{"coordinates": [-1.5, -6, -1.5, 3, 6, 3], "textureOffset": [860, 4]}
+									]
+								},
+								{
+									"id": "leg2_bamboo",
+									"invertAxis": "xy",
+									"translate": [2, 6, -2],
+									"boxes": [
+										{"coordinates": [-1.5, -6, -1.5, 3, 6, 3], "textureOffset": [862, 13]}
+									]
+								},
+								{
+									"id": "leg3_bamboo",
+									"invertAxis": "xy",
+									"translate": [-2, 6, 2],
+									"boxes": [
+										{"coordinates": [-1.5, -6, -1.5, 3, 6, 3], "textureOffset": [862, 22]}
+									]
+								},
+								{
+									"id": "leg4_bamboo",
+									"invertAxis": "xy",
+									"translate": [2, 6, 2],
+									"boxes": [
+										{"coordinates": [-1.5, -6, -1.5, 3, 6, 3], "textureOffset": [862, 31]}
+									]
+								}
+							]
+						},
+						{
+							"id": "cave_creepers",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"submodels": [
+								{
+									"id": "body_cave",
+									"invertAxis": "xy",
+									"translate": [0, 9, 0],
+									"boxes": [
+										{"coordinates": [-4, 0, -3, 8, 8, 6], "textureOffset": [896, 18]}
+									],
+									"submodels": [
+										{
+											"id": "head_cave",
+											"invertAxis": "xy",
+											"translate": [0, 8, 0],
+											"boxes": [
+												{"coordinates": [-5, 0, -4.5, 10, 9, 9], "textureOffset": [896, 0]}
+											]
+										}
+									]
+								},
+								{
+									"id": "leg1_cave",
+									"invertAxis": "xy",
+									"translate": [-2.5, 10, -4.5],
+									"boxes": [
+										{"coordinates": [-2.5, -10, -2.5, 5, 10, 5], "textureOffset": [919, 27]}
+									]
+								},
+								{
+									"id": "leg2_cave",
+									"invertAxis": "xy",
+									"translate": [2.5, 10, -4.5],
+									"boxes": [
+										{"coordinates": [-2.5, -10, -2.5, 5, 10, 5], "textureOffset": [896, 32]}
+									]
+								},
+								{
+									"id": "leg3_cave",
+									"invertAxis": "xy",
+									"translate": [-2.5, 10, 4.5],
+									"boxes": [
+										{"coordinates": [-2.5, -10, -2.5, 5, 10, 5], "textureOffset": [934, 0]}
+									]
+								},
+								{
+									"id": "leg4_cave",
+									"invertAxis": "xy",
+									"translate": [2.5, 10, 4.5],
+									"boxes": [
+										{"coordinates": [-2.5, -10, -2.5, 5, 10, 5], "textureOffset": [934, 15]}
+									]
+								}
+							]
+						},
+						{
+							"id": "dark_forest_creepers",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"submodels": [
+								{
+									"id": "body_dark_forest",
+									"invertAxis": "xy",
+									"translate": [0, 5.5, 0],
+									"boxes": [
+										{"coordinates": [-5, 17, -5, 10, 0, 10], "textureOffset": [788, 64]},
+										{"coordinates": [-8, 7, 0, 16, 13, 0], "textureOffset": [768, 94]},
+										{"coordinates": [-5, 20, -6, 0, 4, 12], "textureOffset": [768, 95]},
+										{"coordinates": [5, 20, -6, 0, 4, 12], "textureOffset": [792, 95]},
+										{"coordinates": [-6, 20, 5, 12, 4, 0], "textureOffset": [800, 94]},
+										{"coordinates": [-6, 20, -5, 12, 4, 0], "textureOffset": [800, 98]},
+										{"coordinates": [-5, 0, -5, 10, 20, 10], "textureOffset": [768, 64]}
+									]
+								},
+								{
+									"id": "leg1_dark_forest",
+									"invertAxis": "xy",
+									"translate": [-2.5, 6, -5],
+									"boxes": [
+										{"coordinates": [-2.5, -6, -2, 5, 6, 4], "textureOffset": [812, 107]}
+									]
+								},
+								{
+									"id": "leg2_dark_forest",
+									"invertAxis": "xy",
+									"translate": [2.5, 6, -5],
+									"boxes": [
+										{"coordinates": [-2.5, -6, -2, 5, 6, 4], "textureOffset": [768, 111]}
+									]
+								},
+								{
+									"id": "leg3_dark_forest",
+									"invertAxis": "xy",
+									"translate": [-2.5, 6, 5],
+									"boxes": [
+										{"coordinates": [-2.5, -6, -2, 5, 6, 4], "textureOffset": [786, 111]}
+									]
+								},
+								{
+									"id": "leg4_dark_forest",
+									"invertAxis": "xy",
+									"translate": [2.5, 6, 5],
+									"boxes": [
+										{"coordinates": [-2.5, -6, -2, 5, 6, 4], "textureOffset": [812, 72]}
+									]
+								}
+							]
+						},
+						{
+							"id": "mushroom_creepers",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"submodels": [
+								{
+									"id": "body_mushroom",
+									"invertAxis": "xy",
+									"translate": [0, 4, 0],
+									"boxes": [
+										{"coordinates": [-4, 0, -2, 8, 11, 4], "textureOffset": [860, 158]}
+									],
+									"submodels": [
+										{
+											"id": "head_mushroom",
+											"invertAxis": "xy",
+											"translate": [0, 11, 0],
+											"boxes": [
+												{"coordinates": [-7, 6, -7, 14, 6, 14], "textureOffset": [832, 128]},
+												{"coordinates": [-4, 0, -4, 8, 6, 8], "textureOffset": [832, 148]}
+											]
+										}
+									]
+								},
+								{
+									"id": "leg1_mushroom",
+									"invertAxis": "xy",
+									"translate": [-2.5, 5, -4],
+									"boxes": [
+										{"coordinates": [-2.5, -5, -2, 5, 5, 4], "textureOffset": [864, 148]}
+									]
+								},
+								{
+									"id": "leg2_mushroom",
+									"invertAxis": "xy",
+									"translate": [2.5, 5, -4],
+									"boxes": [
+										{"coordinates": [-2.5, -5, -2, 5, 5, 4], "textureOffset": [832, 162]}
+									]
+								},
+								{
+									"id": "leg3_mushroom",
+									"invertAxis": "xy",
+									"translate": [-2.5, 5, 4],
+									"boxes": [
+										{"coordinates": [-2.5, -5, -2, 5, 5, 4], "textureOffset": [846, 169]}
+									]
+								},
+								{
+									"id": "leg4_mushroom",
+									"invertAxis": "xy",
+									"translate": [2.5, 5, 4],
+									"boxes": [
+										{"coordinates": [-2.5, -5, -2, 5, 5, 4], "textureOffset": [874, 128]}
+									]
+								}
+							]
+						},
+						{
+							"id": "desert_creepers",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"submodels": [
+								{
+									"id": "body_desert",
+									"invertAxis": "xy",
+									"translate": [0, 4, 0],
+									"boxes": [
+										{"coordinates": [-9, 10, 0, 18, 14, 0], "textureOffset": [960, 30]},
+										{"coordinates": [-4, 0, -4, 8, 22, 8], "textureOffset": [960, 0]},
+										{"coordinates": [-3, 22, -3, 4, 3, 6], "textureOffset": [992, 2]},
+										{"coordinates": [-4, 22, -2, 6, 4, 4], "textureOffset": [992, 12]},
+										{"coordinates": [-3, 22, -2, 4, 4, 4], "textureOffset": [976, 44]}
+									]
+								},
+								{
+									"id": "leg1_desert",
+									"invertAxis": "xy",
+									"translate": [-3, 7, -4],
+									"boxes": [
+										{"coordinates": [-2, -7, -2, 4, 7, 4], "textureOffset": [996, 20]}
+									]
+								},
+								{
+									"id": "leg2_desert",
+									"invertAxis": "xy",
+									"translate": [3, 7, -4],
+									"boxes": [
+										{"coordinates": [-2, -7, -2, 4, 7, 4], "textureOffset": [996, 31]}
+									]
+								},
+								{
+									"id": "leg3_desert",
+									"invertAxis": "xy",
+									"translate": [-3, 7, 4],
+									"boxes": [
+										{"coordinates": [-2, -7, -2, 4, 7, 4], "textureOffset": [992, 42]}
+									]
+								},
+								{
+									"id": "leg4_desert",
+									"invertAxis": "xy",
+									"translate": [3, 7, 4],
+									"boxes": [
+										{"coordinates": [-2, -7, -2, 4, 7, 4], "textureOffset": [960, 44]}
+									]
+								}
+							]
+						},
+						{
+							"id": "drip_creepers",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"submodels": [
+								{
+									"id": "body_drip",
+									"invertAxis": "xy",
+									"translate": [0, 5, 0],
+									"boxes": [
+										{"coordinates": [-3, 0, -2, 6, 10, 4], "textureOffset": [832, 78]}
+									],
+									"submodels": [
+										{
+											"id": "head_drip",
+											"invertAxis": "xy",
+											"translate": [0, 10, 0],
+											"boxes": [
+												{"coordinates": [-4, 0, -4, 8, 6, 8], "textureOffset": [832, 64]},
+												{"coordinates": [-2, 6, 0, 4, 7, 0], "textureOffset": [832, 102]}
+											]
+										}
+									]
+								},
+								{
+									"id": "leg1_drip",
+									"invertAxis": "xy",
+									"translate": [-2, 6, -3.5],
+									"boxes": [
+										{"coordinates": [-2, -6, -2, 4, 6, 4], "textureOffset": [852, 78]}
+									]
+								},
+								{
+									"id": "leg2_drip",
+									"invertAxis": "xy",
+									"translate": [2, 6, -3.5],
+									"boxes": [
+										{"coordinates": [-2, -6, -2, 4, 6, 4], "textureOffset": [848, 88]}
+									]
+								},
+								{
+									"id": "leg3_drip",
+									"invertAxis": "xy",
+									"translate": [-2, 6, 3.5],
+									"boxes": [
+										{"coordinates": [-2, -6, -2, 4, 6, 4], "textureOffset": [832, 92]}
+									]
+								},
+								{
+									"id": "leg4_drip",
+									"invertAxis": "xy",
+									"translate": [2, 6, 3.5],
+									"boxes": [
+										{"coordinates": [-2, -6, -2, 4, 6, 4], "textureOffset": [860, 94]}
+									]
+								}
+							]
+						},
+						{
+							"id": "hills_creepers",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"submodels": [
+								{
+									"id": "body_hills",
+									"invertAxis": "xy",
+									"translate": [0, 3, 0],
+									"boxes": [
+										{"coordinates": [-5, 0, -3, 10, 23, 6], "textureOffset": [896, 192]},
+										{"coordinates": [-6, 21, 0, 13, 8, 0], "textureOffset": [896, 221]}
+									]
+								},
+								{
+									"id": "leg1_hills",
+									"invertAxis": "xy",
+									"translate": [-4, 6, -4],
+									"boxes": [
+										{"coordinates": [-2, -6, -2, 4, 6, 4], "textureOffset": [924, 217]}
+									]
+								},
+								{
+									"id": "leg2_hills",
+									"invertAxis": "xy",
+									"translate": [4, 6, -4],
+									"boxes": [
+										{"coordinates": [-2, -6, -2, 4, 6, 4], "textureOffset": [928, 192]}
+									]
+								},
+								{
+									"id": "leg3_hills",
+									"invertAxis": "xy",
+									"translate": [-4, 6, 4],
+									"boxes": [
+										{"coordinates": [-2, -6, -2, 4, 6, 4], "textureOffset": [928, 202]}
+									]
+								},
+								{
+									"id": "leg4_hills",
+									"invertAxis": "xy",
+									"translate": [4, 6, 4],
+									"boxes": [
+										{"coordinates": [-2, -6, -2, 4, 6, 4], "textureOffset": [918, 227]}
+									]
+								}
+							]
+						},
+						{
+							"id": "jungle_creepers",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"submodels": [
+								{
+									"id": "body_jungle",
+									"invertAxis": "xy",
+									"translate": [0, 5, 0],
+									"boxes": [
+										{"coordinates": [-3, 0, -2, 6, 8, 4], "textureOffset": [896, 97]}
+									],
+									"submodels": [
+										{
+											"id": "head_jungle",
+											"invertAxis": "xy",
+											"translate": [0, 8, 0],
+											"boxes": [
+												{"coordinates": [-5, 9, -7, 0, 8, 14], "textureOffset": [896, 75]},
+												{"coordinates": [-7, 9, 5, 14, 8, 0], "textureOffset": [924, 81]},
+												{"coordinates": [-7, 9, -5, 14, 8, 0], "textureOffset": [926, 64]},
+												{"coordinates": [5, 9, -7, 0, 8, 14], "textureOffset": [896, 67]},
+												{"coordinates": [-5, 2, -5, 10, 7, 10], "textureOffset": [896, 64]},
+												{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [916, 89]}
+											]
+										}
+									]
+								},
+								{
+									"id": "leg1_jungle",
+									"invertAxis": "xy",
+									"translate": [-2, 5, -3],
+									"boxes": [
+										{"coordinates": [-2, -5, -2, 4, 5, 4], "textureOffset": [936, 72]}
+									]
+								},
+								{
+									"id": "leg2_jungle",
+									"invertAxis": "xy",
+									"translate": [2, 5, -3],
+									"boxes": [
+										{"coordinates": [-2, -5, -2, 4, 5, 4], "textureOffset": [912, 105]}
+									]
+								},
+								{
+									"id": "leg3_jungle",
+									"invertAxis": "xy",
+									"translate": [-2, 5, 3],
+									"boxes": [
+										{"coordinates": [-2, -5, -2, 4, 5, 4], "textureOffset": [928, 105]}
+									]
+								},
+								{
+									"id": "leg4_jungle",
+									"invertAxis": "xy",
+									"translate": [2, 5, 3],
+									"boxes": [
+										{"coordinates": [-2, -5, -2, 4, 5, 4], "textureOffset": [896, 109]}
+									]
+								}
+							]
+						},
+						{
+							"id": "savanna_creepers",
+							"invertAxis": "xy",
+							"translate": [0, -4, 0],
+							"submodels": [
+								{
+									"id": "body_savanna",
+									"invertAxis": "xy",
+									"translate": [0, 9, 0],
+									"boxes": [
+										{"coordinates": [-4, 0, -4, 8, 6, 8], "textureOffset": [984, 152]}
+									],
+									"submodels": [
+										{
+											"id": "savanna_face_creeper",
+											"invertAxis": "xy",
+											"translate": [0, 22, 0],
+											"boxes": [
+												{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [960, 144]}
+											]
+										},
+										{
+											"id": "savanna_face_slime",
+											"invertAxis": "xy",
+											"translate": [0, 14, 0],
+											"boxes": [
+												{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [984, 136]}
+											]
+										},
+										{
+											"id": "savanna_face_villager",
+											"invertAxis": "xy",
+											"translate": [0, 6, 0],
+											"boxes": [
+												{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [960, 128]}
+											]
+										},
+										{
+											"id": "savanna_arm",
+											"invertAxis": "xy",
+											"translate": [0, 4, 0],
+											"rotate": [-12.5, 0, 0],
+											"boxes": [
+												{"coordinates": [-5, -1.0237, -4.98356, 10, 2, 6], "textureOffset": [984, 128]}
+											]
+										}
+									]
+								},
+								{
+									"id": "leg1_savanna",
+									"invertAxis": "xy",
+									"translate": [-2.5, 9, -4],
+									"boxes": [
+										{"coordinates": [-2.5, -5, -2, 5, 5, 4], "textureOffset": [960, 160]}
+									]
+								},
+								{
+									"id": "leg2_savanna",
+									"invertAxis": "xy",
+									"translate": [2.5, 9, -4],
+									"boxes": [
+										{"coordinates": [-2.5, -5, -2, 5, 5, 4], "textureOffset": [974, 166]}
+									]
+								},
+								{
+									"id": "leg3_savanna",
+									"invertAxis": "xy",
+									"translate": [-2.5, 9, 4],
+									"boxes": [
+										{"coordinates": [-2.5, -5, -2, 5, 5, 4], "textureOffset": [960, 160]}
+									]
+								},
+								{
+									"id": "leg4_savanna",
+									"invertAxis": "xy",
+									"translate": [2.5, 9, 4],
+									"boxes": [
+										{"coordinates": [-2.5, -5, -2, 5, 5, 4], "textureOffset": [974, 166]}
+									]
+								}
+							]
+						},
+						{
+							"id": "snowy_creepers",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"submodels": [
+								{
+									"id": "body_snowy",
+									"invertAxis": "xy",
+									"translate": [0, 7, 0],
+									"boxes": [
+										{"coordinates": [-6, -2, 0, 12, 10, 0], "textureOffset": [798, 192]},
+										{"coordinates": [-4, 0, -3, 8, 8, 6], "textureOffset": [768, 212]}
+									],
+									"submodels": [
+										{
+											"id": "head_snowy",
+											"invertAxis": "xy",
+											"translate": [0, 8, 0],
+											"boxes": [
+												{"coordinates": [-5, 0, -5, 10, 10, 10], "textureOffset": [768, 192]},
+												{"coordinates": [7, 9, -1.5, 2, 2, 2], "textureOffset": [768, 192]},
+												{"coordinates": [5, 6, -2, 4, 3, 3], "textureOffset": [818, 243]},
+												{"coordinates": [6, 10, -1.5, 1, 1, 2], "textureOffset": [768, 212]},
+												{"coordinates": [-7, 10, -1.5, 1, 1, 2], "textureOffset": [790, 212]},
+												{"coordinates": [-9, 9, -1.5, 2, 2, 2], "textureOffset": [768, 196]},
+												{"coordinates": [-9, 6, -2, 4, 3, 3], "textureOffset": [822, 192]},
+												{"coordinates": [-7, 1, 2, 14, 11, 0], "textureOffset": [796, 212]},
+												{"coordinates": [-7, 1, -2, 14, 11, 0], "textureOffset": [796, 212]}
+											]
+										}
+									]
+								},
+								{
+									"id": "leg1_snowy",
+									"invertAxis": "xy",
+									"translate": [-2.5, 8, -4],
+									"boxes": [
+										{"coordinates": [-2.5, -8, -2, 5, 8, 4], "textureOffset": [768, 228]},
+										{"coordinates": [-4.5, -6, 0, 2, 5, 0], "textureOffset": [814, 225]}
+									]
+								},
+								{
+									"id": "leg2_snowy",
+									"invertAxis": "xy",
+									"translate": [2.5, 8, -4],
+									"boxes": [
+										{"coordinates": [-2.5, -8, -2, 5, 8, 4], "textureOffset": [796, 223]},
+										{"coordinates": [2.5, -6, 0, 2, 5, 0], "textureOffset": [804, 243]}
+									]
+								},
+								{
+									"id": "leg3_snowy",
+									"invertAxis": "xy",
+									"translate": [-2.5, 8, 4],
+									"boxes": [
+										{"coordinates": [-2.5, -8, -2, 5, 8, 4], "textureOffset": [810, 231]},
+										{"coordinates": [-4.5, -6, 0, 2, 5, 0], "textureOffset": [768, 240]}
+									]
+								},
+								{
+									"id": "leg4_snowy",
+									"invertAxis": "xy",
+									"translate": [2.5, 8, 4],
+									"boxes": [
+										{"coordinates": [-2.5, -8, -2, 5, 8, 4], "textureOffset": [786, 235]},
+										{"coordinates": [2.5, -6, 0, 2, 5, 0], "textureOffset": [808, 202]}
+									]
+								}
+							]
+						},
+						{
+							"id": "taiga_creepers",
+							"invertAxis": "xy",
+							"translate": [0, -4, 0],
+							"submodels": [
+								{
+									"id": "body_taiga",
+									"invertAxis": "xy",
+									"translate": [0, 9, 0],
+									"boxes": [
+										{"coordinates": [-3, 0, -2, 6, 8, 4], "textureOffset": [960, 91]}
+									],
+									"submodels": [
+										{
+											"id": "head_taiga",
+											"invertAxis": "xy",
+											"translate": [0, 8, 0],
+											"boxes": [
+												{"coordinates": [-4, 0, -4, 8, 7, 8], "textureOffset": [960, 64]},
+												{"coordinates": [-5, 7, -4, 10, 4, 0], "textureOffset": [996, 95]},
+												{"coordinates": [-4, 7, -4, 8, 4, 8], "textureOffset": [960, 79]}
+											]
+										}
+									]
+								},
+								{
+									"id": "leg1_taiga",
+									"invertAxis": "xy",
+									"translate": [-2, 10, -4],
+									"boxes": [
+										{"coordinates": [-2, -6, -2, 4, 6, 4], "textureOffset": [980, 91]}
+									]
+								},
+								{
+									"id": "leg2_taiga",
+									"invertAxis": "xy",
+									"translate": [2, 10, -4],
+									"boxes": [
+										{"coordinates": [-2, -6, -2, 4, 6, 4], "textureOffset": [988, 75]}
+									]
+								},
+								{
+									"id": "leg3_taiga",
+									"invertAxis": "xy",
+									"translate": [-2, 10, 4],
+									"boxes": [
+										{"coordinates": [-2, -6, -2, 4, 6, 4], "textureOffset": [992, 85]}
+									]
+								},
+								{
+									"id": "leg4_taiga",
+									"invertAxis": "xy",
+									"translate": [2, 10, 4],
+									"boxes": [
+										{"coordinates": [-2, -6, -2, 4, 6, 4], "textureOffset": [992, 64]}
+									]
+								}
+							]
+						},
+						{
+							"id": "swampy_creepers",
+							"invertAxis": "xy",
+							"translate": [2, 6, 4],
+							"submodels": [
+								{
+									"id": "body_swampy",
+									"invertAxis": "xy",
+									"translate": [-2, 1, -4],
+									"boxes": [
+										{"coordinates": [-3, 0, -2, 6, 10, 4], "textureOffset": [768, 170]},
+										{"coordinates": [0.5, 3, -2.5, 3, 5, 3], "textureOffset": [800, 181]}
+									],
+									"submodels": [
+										{
+											"id": "head_swampy",
+											"invertAxis": "xy",
+											"translate": [0, 10, 0],
+											"boxes": [
+												{"coordinates": [-4, 0, -4, 8, 7, 8], "textureOffset": [788, 149]},
+												{"coordinates": [-7, 7, -4, 14, 6, 0], "textureOffset": [796, 164]},
+												{"coordinates": [-7, 7, 4, 14, 6, 0], "textureOffset": [768, 164]},
+												{"coordinates": [-4, 7, -7, 0, 6, 14], "textureOffset": [768, 137]},
+												{"coordinates": [4, 7, -7, 0, 6, 14], "textureOffset": [768, 131]},
+												{"coordinates": [-8, 5, -8, 16, 1, 16], "textureOffset": [768, 128]},
+												{"coordinates": [-3, 1, -5, 6, 4, 1], "textureOffset": [768, 139]},
+												{"coordinates": [-2, -1, -5, 4, 2, 1], "textureOffset": [796, 145]}
+											]
+										}
+									]
+								},
+								{
+									"id": "leg1_swampy",
+									"invertAxis": "xy",
+									"translate": [-4, 1, -8],
+									"boxes": [
+										{"coordinates": [-2, -7, -2, 4, 7, 4], "textureOffset": [768, 128]}
+									]
+								},
+								{
+									"id": "leg2_swampy",
+									"invertAxis": "xy",
+									"translate": [0, 1, -8],
+									"boxes": [
+										{"coordinates": [-2, -7, -2, 4, 7, 4], "textureOffset": [804, 170]}
+									]
+								},
+								{
+									"id": "leg3_swampy",
+									"invertAxis": "xy",
+									"translate": [-4, 1, 0],
+									"boxes": [
+										{"coordinates": [-2, -7, -2, 4, 7, 4], "textureOffset": [812, 145]}
+									]
+								},
+								{
+									"id": "leg4_swampy",
+									"invertAxis": "xy",
+									"translate": [0, 1, 0],
+									"boxes": [
+										{"coordinates": [-2, -7, -2, 4, 7, 4], "textureOffset": [788, 170]}
+									]
+								}
+							]
+						},
+						{
+							"id": "default_creepers",
+							"invertAxis": "xy",
+							"translate": [0, -3, 0],
+							"submodels": [
+								{
+									"id": "body_default",
+									"invertAxis": "xy",
+									"translate": [0, 9, 0],
+									"boxes": [
+										{"coordinates": [-4, 0, -2, 8, 12, 4], "textureOffset": [976, 208]}
+									],
+									"submodels": [
+										{
+											"id": "head_default",
+											"invertAxis": "xy",
+											"translate": [0, 12, 0],
+											"boxes": [
+												{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [960, 192]}
+											]
+										}
+									]
+								},
+								{
+									"id": "leg1_default",
+									"invertAxis": "xy",
+									"translate": [-2, 9, -4],
+									"boxes": [
+										{"coordinates": [-2, -6, -2, 4, 6, 4], "textureOffset": [1000, 214]}
+									]
+								},
+								{
+									"id": "leg2_default",
+									"invertAxis": "xy",
+									"translate": [2, 9, -4],
+									"boxes": [
+										{"coordinates": [-2, -6, -2, 4, 6, 4], "textureOffset": [960, 208]}
+									]
+								},
+								{
+									"id": "leg3_default",
+									"invertAxis": "xy",
+									"translate": [-2, 9, 4],
+									"boxes": [
+										{"coordinates": [-2, -6, -2, 4, 6, 4], "textureOffset": [1000, 214]}
+									]
+								},
+								{
+									"id": "leg4_default",
+									"invertAxis": "xy",
+									"translate": [2, 9, 4],
+									"boxes": [
+										{"coordinates": [-2, -6, -2, 4, 6, 4], "textureOffset": [960, 208]}
+									]
+								}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"beach_creepers:leg1_beach.rx": "leg1.rx",
+					"beach_creepers:leg2_beach.rx": "leg2.rx",
+					"beach_creepers:leg3_beach.rx": "leg3.rx",
+					"beach_creepers:leg4_beach.rx": "leg4.rx",
+					"beach_creepers:body_beach.rx": "if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))",
+					"beach_creepers:body_beach.ry": "body.ry",
+					"beach_creepers:body_beach.rz": "body.rz",
+					"beach_creepers:body_beach.ty": "-5.3+0.08*sin(age/5.6)",
+					"beach_creepers:body_beach:head_beach.rx": "head.rx+(if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6)))",
+					"beach_creepers:body_beach:head_beach.ry": "head.ry/2",
+					"beach_creepers:body_beach:head_beach.rz": "head.rz"
+				},
+				{
+					"badlands_creepers:leg1_badlands.rx": "leg1.rx",
+					"badlands_creepers:leg2_badlands.rx": "leg2.rx",
+					"badlands_creepers:leg3_badlands.rx": "leg3.rx",
+					"badlands_creepers:leg4_badlands.rx": "leg4.rx",
+					"badlands_creepers:body_badlands.ty": "-5+0.08*sin(age/5.6)",
+					"badlands_creepers:body_badlands.rx": "if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))",
+					"badlands_creepers:body_badlands.ry": "body.ry"
+				},
+				{
+					"bamboo_creepers:leg1_bamboo.rx": "leg1.rx",
+					"bamboo_creepers:leg2_bamboo.rx": "leg2.rx",
+					"bamboo_creepers:leg3_bamboo.rx": "leg3.rx",
+					"bamboo_creepers:leg4_bamboo.rx": "leg4.rx",
+					"bamboo_creepers:body_bamboo.rx": "if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))",
+					"bamboo_creepers:body_bamboo.rz": "if(limb_speed>=0.25,0.1*sin(age/2.8),0)",
+					"bamboo_creepers:body_bamboo.ry": "body.ry",
+					"bamboo_creepers:body_bamboo:head_bamboo.rx": "head.rx+(if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))*2)",
+					"bamboo_creepers:body_bamboo:head_bamboo.ry": "head.ry/2",
+					"bamboo_creepers:body_bamboo:head_bamboo.rz": "if(limb_speed>=0.25,0.125*sin(age/2.8)+head.rz,0)"
+				},
+				{
+					"cave_creepers:leg1_cave.rx": "leg1.rx",
+					"cave_creepers:leg2_cave.rx": "leg2.rx",
+					"cave_creepers:leg3_cave.rx": "leg3.rx",
+					"cave_creepers:leg4_cave.rx": "leg4.rx",
+					"cave_creepers:body_cave.rx": "if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))",
+					"cave_creepers:body_cave.ry": "body.ry",
+					"cave_creepers:body_cave.ty": "-8.8+0.08*sin(age/5.6)",
+					"cave_creepers:body_cave:head_cave.rx": "head.rx+(if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))*2)",
+					"cave_creepers:body_cave:head_cave.ry": "head.ry/2",
+					"cave_creepers:body_cave:head_cave.rz": "head.rz"
+				},
+				{
+					"dark_forest_creepers:leg1_dark_forest.rx": "leg1.rx",
+					"dark_forest_creepers:leg2_dark_forest.rx": "leg2.rx",
+					"dark_forest_creepers:leg3_dark_forest.rx": "leg3.rx",
+					"dark_forest_creepers:leg4_dark_forest.rx": "leg4.rx",
+					"dark_forest_creepers:body_dark_forest.rx": "if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))",
+					"dark_forest_creepers:body_dark_forest.ry": "body.ry",
+					"dark_forest_creepers:body_dark_forest.ty": "-5.3+0.08*sin(age/5.6)"
+				},
+				{
+					"mushroom_creepers:leg1_mushroom.rx": "leg1.rx",
+					"mushroom_creepers:leg2_mushroom.rx": "leg2.rx",
+					"mushroom_creepers:leg3_mushroom.rx": "leg3.rx",
+					"mushroom_creepers:leg4_mushroom.rx": "leg4.rx",
+					"mushroom_creepers:body_mushroom.rx": "if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))",
+					"mushroom_creepers:body_mushroom.ry": "body.ry",
+					"mushroom_creepers:body_mushroom.ty": "-4+0.08*sin(age/5.6)",
+					"mushroom_creepers:body_mushroom:head_mushroom.rx": "head.rx+(if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))*2)",
+					"mushroom_creepers:body_mushroom:head_mushroom.ry": "head.ry/2",
+					"mushroom_creepers:body_mushroom:head_mushroom.rz": "head.rz"
+				},
+				{
+					"desert_creepers:leg1_desert.rx": "leg1.rx",
+					"desert_creepers:leg2_desert.rx": "leg2.rx",
+					"desert_creepers:leg3_desert.rx": "leg3.rx",
+					"desert_creepers:leg4_desert.rx": "leg4.rx",
+					"desert_creepers:body_desert.rx": "if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))",
+					"desert_creepers:body_desert.ry": "body.ry",
+					"desert_creepers:body_desert.ty": "-4+0.08*sin(age/5.6)"
+				},
+				{
+					"drip_creepers:leg1_drip.rx": "leg1.rx",
+					"drip_creepers:leg2_drip.rx": "leg2.rx",
+					"drip_creepers:leg3_drip.rx": "leg3.rx",
+					"drip_creepers:leg4_drip.rx": "leg4.rx",
+					"drip_creepers:body_drip.rx": "if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))",
+					"drip_creepers:body_drip.ry": "body.ry",
+					"drip_creepers:body_drip.ty": "-5.3+0.08*sin(age/5.6)",
+					"drip_creepers:body_drip:head_drip.rx": "head.rx+(if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))*2)",
+					"drip_creepers:body_drip:head_drip.ry": "head.ry/2",
+					"drip_creepers:body_drip:head_drip.rz": "head.rz"
+				},
+				{
+					"hills_creepers:leg1_hills.rx": "leg1.rx",
+					"hills_creepers:leg2_hills.rx": "leg2.rx",
+					"hills_creepers:leg3_hills.rx": "leg3.rx",
+					"hills_creepers:leg4_hills.rx": "leg4.rx",
+					"hills_creepers:body_hills.rx": "if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))",
+					"hills_creepers:body_hills.ry": "body.ry",
+					"hills_creepers:body_hills.ty": "-3+0.08*sin(age/5.6)",
+					"hills_creepers:body_hills:head_hills.rx": "head.rx+(if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))*2)",
+					"hills_creepers:body_hills:head_hills.ry": "head.ry/2",
+					"hills_creepers:body_hills:head_hills.rz": "head.rz"
+				},
+				{
+					"jungle_creepers:leg1_jungle.rx": "leg1.rx",
+					"jungle_creepers:leg2_jungle.rx": "leg2.rx",
+					"jungle_creepers:leg3_jungle.rx": "leg3.rx",
+					"jungle_creepers:leg4_jungle.rx": "leg4.rx",
+					"jungle_creepers:body_jungle.rx": "if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))",
+					"jungle_creepers:body_jungle.ry": "body.ry",
+					"jungle_creepers:body_jungle.ty": "-4.7+0.08*sin(age/5.6)",
+					"jungle_creepers:body_jungle:head_jungle.rx": "head.rx+(if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))*2)",
+					"jungle_creepers:body_jungle:head_jungle.ry": "head.ry/2",
+					"jungle_creepers:body_jungle:head_jungle.rz": "head.rz"
+				},
+				{
+					"savanna_creepers:leg1_savanna.rx": "leg1.rx",
+					"savanna_creepers:leg2_savanna.rx": "leg2.rx",
+					"savanna_creepers:leg3_savanna.rx": "leg3.rx",
+					"savanna_creepers:leg4_savanna.rx": "leg4.rx",
+					"savanna_creepers:body_savanna.rx": "torad(3)+0.02*sin(age/5.6)",
+					"savanna_creepers:body_savanna.ty": "-8.3+0.08*sin(age/5.6)",
+					"savanna_creepers:body_savanna.rz": "if(limb_speed>=0.25,0.1*sin(age/2.8),0)"
+				},
+				{
+					"snowy_creepers:leg1_snowy.rx": "leg1.rx",
+					"snowy_creepers:leg2_snowy.rx": "leg2.rx",
+					"snowy_creepers:leg3_snowy.rx": "leg3.rx",
+					"snowy_creepers:leg4_snowy.rx": "leg4.rx",
+					"snowy_creepers:body_snowy.rx": "if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))",
+					"snowy_creepers:body_snowy.ry": "body.ry",
+					"snowy_creepers:body_snowy.ty": "-7+0.08*sin(age/5.6)",
+					"snowy_creepers:body_snowy:head_snowy.rx": "head.rx+(if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))*2)",
+					"snowy_creepers:body_snowy:head_snowy.ry": "head.ry/2",
+					"snowy_creepers:body_snowy:head_snowy.rz": "head.rz"
+				},
+				{
+					"taiga_creepers:leg1_taiga.rx": "leg1.rx",
+					"taiga_creepers:leg2_taiga.rx": "leg2.rx",
+					"taiga_creepers:leg3_taiga.rx": "leg3.rx",
+					"taiga_creepers:leg4_taiga.rx": "leg4.rx",
+					"taiga_creepers:body_taiga.rx": "if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))",
+					"taiga_creepers:body_taiga.ry": "body.ry",
+					"taiga_creepers:body_taiga.ty": "-9.7+0.08*sin(age/5.6)",
+					"taiga_creepers:body_taiga:head_taiga.rx": "head.rx+(if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))*2)",
+					"taiga_creepers:body_taiga:head_taiga.ry": "head.ry/2",
+					"taiga_creepers:body_taiga:head_taiga.rz": "head.rz"
+				},
+				{
+					"swampy_creepers:leg1_swampy.rx": "leg1.rx",
+					"swampy_creepers:leg2_swampy.rx": "leg2.rx",
+					"swampy_creepers:leg3_swampy.rx": "leg3.rx",
+					"swampy_creepers:leg4_swampy.rx": "leg4.rx",
+					"swampy_creepers:body_swampy.rx": "if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))",
+					"swampy_creepers:body_swampy.ry": "body.ry",
+					"swampy_creepers:body_swampy.ty": "-0.7+0.08*sin(age/5.6)",
+					"swampy_creepers:body_swampy:head_swampy.rx": "head.rx+(if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))*2)",
+					"swampy_creepers:body_swampy:head_swampy.ry": "head.ry/2",
+					"swampy_creepers:body_swampy:head_swampy.rz": "head.rz"
+				},
+				{
+					"default_creepers:leg1_default.rx": "leg1.rx",
+					"default_creepers:leg2_default.rx": "leg2.rx",
+					"default_creepers:leg3_default.rx": "leg3.rx",
+					"default_creepers:leg4_default.rx": "leg4.rx",
+					"default_creepers:body_default.rx": "if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))",
+					"default_creepers:body_default.ry": "body.ry",
+					"default_creepers:body_default.ty": "-8.7+0.08*sin(age/5.6)",
+					"default_creepers:body_default:head_default.rx": "head.rx+(if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))*2)",
+					"default_creepers:body_default:head_default.ry": "head.ry/2",
+					"default_creepers:body_default:head_default.rz": "head.rz"
+				}
+			]
+		}
+	]
+}

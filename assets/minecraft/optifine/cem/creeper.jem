@@ -1,0 +1,841 @@
+{
+	"textureSize": [1024, 512],
+	"models": [
+		{
+			"part": "head",
+			"id": "head",
+			"invertAxis": "xy",
+			"translate": [0, -18, 0]
+		},
+		{
+			"part": "leg1",
+			"id": "leg1",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "leg2",
+			"id": "leg2",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "leg3",
+			"id": "leg3",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "leg4",
+			"id": "leg4",
+			"invertAxis": "xy",
+			"translate": [0, 0, 0]
+		},
+		{
+			"part": "body",
+			"id": "body",
+			"invertAxis": "xy",
+			"translate": [0, -8, 0],
+			"submodels": [
+				{
+					"id": "bodies",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"submodels": [
+						{
+							"id": "body_y1_cave",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [-4, -1, -3, 8, 8, 6], "textureOffset": [896, 18]}
+							]
+						},
+						{
+							"id": "body_y3",
+							"invertAxis": "xy",
+							"translate": [0, -2, 0],
+							"boxes": [
+								{"coordinates": [-3, -1, -2, 6, 10, 4], "textureOffset": [768, 170]},
+								{"coordinates": [0.5, 2, -2.5, 3, 5, 3], "textureOffset": [800, 181]},
+								{"coordinates": [-4, -1, -3, 8, 8, 6], "textureOffset": [768, 212]},
+								{"coordinates": [-6, -3, 0, 12, 10, 0], "textureOffset": [798, 192]}
+							]
+						},
+						{
+							"id": "body_y4_5_darkforest",
+							"invertAxis": "xy",
+							"translate": [0, -3.5, 0],
+							"boxes": [
+								{"coordinates": [-5, 16, -5, 10, 0, 10], "textureOffset": [788, 64]},
+								{"coordinates": [-8, 6, 0, 16, 13, 0], "textureOffset": [768, 94]},
+								{"coordinates": [-5, 19, -6, 0, 4, 12], "textureOffset": [768, 95]},
+								{"coordinates": [5, 19, -6, 0, 4, 12], "textureOffset": [792, 95]},
+								{"coordinates": [-6, 19, 5, 12, 4, 0], "textureOffset": [800, 94]},
+								{"coordinates": [-6, 19, -5, 12, 4, 0], "textureOffset": [800, 98]},
+								{"coordinates": [-5, -1, -5, 10, 20, 10], "textureOffset": [768, 64]}
+							]
+						},
+						{
+							"id": "body_y5",
+							"invertAxis": "xy",
+							"translate": [0, -4, 0],
+							"boxes": [
+								{"coordinates": [-3, -1, -2, 6, 8, 4], "textureOffset": [896, 97]},
+								{"coordinates": [-3, -1, -2, 6, 8, 4], "textureOffset": [960, 91]},
+								{"coordinates": [-3, -1, -2, 6, 10, 4], "textureOffset": [832, 78]},
+								{"coordinates": [-3, -1, -2, 6, 9, 4], "textureOffset": [896, 144]},
+								{"coordinates": [-6, -1, -6, 12, 21, 12], "textureOffset": [768, 0]},
+								{"coordinates": [-3, 20, -2, 4, 5, 4], "textureOffset": [808, 45]},
+								{"coordinates": [-3, 20, -3, 4, 6, 6], "textureOffset": [768, 45]},
+								{"coordinates": [-4, 20, -2, 6, 5, 4], "textureOffset": [788, 45]}
+							]
+						},
+						{
+							"id": "body_y4_plains",
+							"invertAxis": "xy",
+							"translate": [0, -3, 0],
+							"boxes": [
+								{"coordinates": [-4, -1, -2, 8, 12, 4], "textureOffset": [976, 208]}
+							]
+						},
+						{
+							"id": "body_y6",
+							"invertAxis": "xy",
+							"translate": [0, -5, 0],
+							"boxes": [
+								{"coordinates": [-4, -1, -4, 8, 22, 8], "textureOffset": [960, 0]},
+								{"coordinates": [-3, 21, -3, 4, 3, 6], "textureOffset": [992, 2]},
+								{"coordinates": [-4, 21, -2, 6, 4, 4], "textureOffset": [992, 12]},
+								{"coordinates": [-3, 21, -2, 4, 4, 4], "textureOffset": [976, 44]},
+								{"coordinates": [-9, 9, 0, 18, 14, 0], "textureOffset": [960, 30]},
+								{"coordinates": [-4, -1, -2, 8, 11, 4], "textureOffset": [860, 158]}
+							]
+						},
+						{
+							"id": "body_y7_hills",
+							"invertAxis": "xy",
+							"translate": [0, -6, 0],
+							"boxes": [
+								{"coordinates": [-5, -1, -3, 10, 23, 6], "textureOffset": [896, 192]},
+								{"coordinates": [-6, 20, 0, 13, 8, 0], "textureOffset": [896, 221]}
+							]
+						}
+					]
+				},
+				{
+					"id": "savannah_parts",
+					"invertAxis": "xy",
+					"translate": [0, -4, 0],
+					"submodels": [
+						{
+							"id": "savannah_face_creeper",
+							"invertAxis": "xy",
+							"translate": [0, 21, 0],
+							"boxes": [
+								{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [960, 144]}
+							]
+						},
+						{
+							"id": "savannah_face_slime",
+							"invertAxis": "xy",
+							"translate": [0, 13, 0],
+							"boxes": [
+								{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [984, 136]}
+							]
+						},
+						{
+							"id": "savannah_face_villager",
+							"invertAxis": "xy",
+							"translate": [0, 5, 0],
+							"boxes": [
+								{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [960, 128]}
+							]
+						},
+						{
+							"id": "savannah_arm",
+							"invertAxis": "xy",
+							"translate": [0, 4, 0],
+							"rotate": [-12.5, 0, 0],
+							"boxes": [
+								{"coordinates": [-5, -2, -5.2, 10, 2, 6], "textureOffset": [984, 128]}
+							]
+						},
+						{
+							"id": "body_savannah",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [-4, -1, -4, 8, 6, 8], "textureOffset": [984, 152]}
+							]
+						}
+					]
+				},
+				{
+					"id": "bamboo_parts",
+					"invertAxis": "xy",
+					"translate": [0, -4, 0],
+					"submodels": [
+						{
+							"id": "head_y15_bamboo",
+							"invertAxis": "xy",
+							"translate": [0, 19, 0],
+							"boxes": [
+								{"coordinates": [-3.5, 0, -3.5, 7, 7, 7], "textureOffset": [832, 0]},
+								{"coordinates": [-6.5, 0, 0, 13, 4, 0], "textureOffset": [853, 0]}
+							]
+						},
+						{
+							"id": "body_y5_bamboo",
+							"invertAxis": "xy",
+							"translate": [0, 0, 0],
+							"boxes": [
+								{"coordinates": [-1.5, -1, -1.5, 3, 20, 3], "textureOffset": [850, 14]},
+								{"coordinates": [-4.5, 1, 0, 9, 18, 0], "textureOffset": [832, 14]}
+							]
+						}
+					]
+				},
+				{
+					"id": "heads",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"submodels": [
+						{
+							"id": "head_y3",
+							"invertAxis": "xy",
+							"translate": [0, 3, 0],
+							"boxes": [
+								{"coordinates": [-4, 0, -4, 8, 7, 8], "textureOffset": [960, 64]},
+								{"coordinates": [-5, 9, -7, 0, 8, 14], "textureOffset": [896, 75]},
+								{"coordinates": [-7, 9, 5, 14, 8, 0], "textureOffset": [924, 81]},
+								{"coordinates": [-7, 9, -5, 14, 8, 0], "textureOffset": [926, 64]},
+								{"coordinates": [5, 9, -7, 0, 8, 14], "textureOffset": [896, 67]},
+								{"coordinates": [-5, 2, -5, 10, 7, 10], "textureOffset": [896, 64]},
+								{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [916, 89]},
+								{"coordinates": [-5, 7, -4, 10, 4, 0], "textureOffset": [996, 95]},
+								{"coordinates": [-4, 7, -4, 8, 4, 8], "textureOffset": [960, 79]}
+							]
+						},
+						{
+							"id": "head_y4_beach",
+							"invertAxis": "xy",
+							"translate": [0, 4, 0],
+							"boxes": [
+								{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [896, 128]},
+								{"coordinates": [-4, 8, -2, 3, 1, 3], "textureOffset": [920, 128]},
+								{"coordinates": [0, 8, 0, 4, 4, 2], "textureOffset": [928, 139]}
+							]
+						},
+						{
+							"id": "head_y5",
+							"invertAxis": "xy",
+							"translate": [0, 5, 0],
+							"boxes": [
+								{"coordinates": [-4, 0, -4, 8, 6, 8], "textureOffset": [832, 64]},
+								{"coordinates": [-2, 6, 0, 4, 7, 0], "textureOffset": [832, 102]},
+								{"coordinates": [-5, 0, -5, 10, 10, 10], "textureOffset": [768, 192]},
+								{"coordinates": [7, 9, -1.5, 2, 2, 2], "textureOffset": [768, 192]},
+								{"coordinates": [5, 6, -2, 4, 3, 3], "textureOffset": [818, 243]},
+								{"coordinates": [6, 10, -1.5, 1, 1, 2], "textureOffset": [768, 212]},
+								{"coordinates": [-7, 10, -1.5, 1, 1, 2], "textureOffset": [790, 212]},
+								{"coordinates": [-9, 9, -1.5, 2, 2, 2], "textureOffset": [768, 196]},
+								{"coordinates": [-9, 6, -2, 4, 3, 3], "textureOffset": [822, 192]},
+								{"coordinates": [-7, 1, 2, 14, 11, 0], "textureOffset": [796, 212]},
+								{"coordinates": [-7, 1, -2, 14, 11, 0], "textureOffset": [796, 212]},
+								{"coordinates": [-4, 0, -4, 8, 6, 8], "textureOffset": [832, 148]},
+								{"coordinates": [-7, 6, -7, 14, 6, 14], "textureOffset": [832, 128]}
+							]
+						},
+						{
+							"id": "head_y7",
+							"invertAxis": "xy",
+							"translate": [0, 7, 0],
+							"boxes": [
+								{"coordinates": [-5, 0, -4.5, 10, 9, 9], "textureOffset": [896, 0]},
+								{"coordinates": [-4, 0, -4, 8, 7, 8], "textureOffset": [788, 149]},
+								{"coordinates": [-7, 7, -4, 14, 6, 0], "textureOffset": [796, 164]},
+								{"coordinates": [-7, 7, 4, 14, 6, 0], "textureOffset": [768, 164]},
+								{"coordinates": [-4, 7, -7, 0, 6, 14], "textureOffset": [768, 137]},
+								{"coordinates": [4, 7, -7, 0, 6, 14], "textureOffset": [768, 131]},
+								{"coordinates": [-8, 5, -8, 16, 1, 16], "textureOffset": [768, 128]},
+								{"coordinates": [-3, 1, -5, 6, 4, 1], "textureOffset": [768, 139]},
+								{"coordinates": [-2, -1, -5, 4, 2, 1], "textureOffset": [796, 145]}
+							]
+						},
+						{
+							"id": "head_y8_plains",
+							"invertAxis": "xy",
+							"translate": [0, 8, 0],
+							"boxes": [
+								{"coordinates": [-4, 0, -4, 8, 8, 8], "textureOffset": [960, 192]}
+							]
+						}
+					]
+				},
+				{
+					"id": "lbl",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"submodels": [
+						{
+							"id": "lbl_747",
+							"invertAxis": "xy",
+							"translate": [0, -3, 2],
+							"boxes": [
+								{"coordinates": [-4, -7, 0, 4, 7, 4], "textureOffset": [812, 145]},
+								{"coordinates": [-4, -7, 0, 4, 7, 4], "textureOffset": [896, 157]}
+							]
+						},
+						{
+							"id": "lbl_646",
+							"invertAxis": "xy",
+							"translate": [0, -4, 2],
+							"boxes": [
+								{"coordinates": [-4, -6, 0, 4, 6, 4], "textureOffset": [992, 85]},
+								{"coordinates": [-4, -6, 0, 4, 6, 4], "textureOffset": [1000, 214]}
+							]
+						},
+						{
+							"id": "lbl_badlands",
+							"invertAxis": "xy",
+							"translate": [0, -3, 6],
+							"boxes": [
+								{"coordinates": [-7, -7, -3, 5, 7, 5], "textureOffset": [804, 0]}
+							]
+						},
+						{
+							"id": "lbl_hills",
+							"invertAxis": "xy",
+							"translate": [0, -4, 3],
+							"boxes": [
+								{"coordinates": [-6, -6, -1, 4, 6, 4], "textureOffset": [928, 202]}
+							]
+						},
+						{
+							"id": "lbl_shroom",
+							"invertAxis": "xy",
+							"translate": [0, -5, 2],
+							"boxes": [
+								{"coordinates": [-5, -5, 0, 5, 5, 4], "textureOffset": [846, 169]}
+							]
+						},
+						{
+							"id": "lbl_savannah",
+							"invertAxis": "xy",
+							"translate": [0, -5, 4],
+							"boxes": [
+								{"coordinates": [-5, -5, -2, 5, 5, 4], "textureOffset": [960, 160]}
+							]
+						},
+						{
+							"id": "lbl_desert",
+							"invertAxis": "xy",
+							"translate": [0, -3, 4],
+							"boxes": [
+								{"coordinates": [-5, -7, -2, 4, 7, 4], "textureOffset": [992, 42]}
+							]
+						},
+						{
+							"id": "lbl_bamboo",
+							"invertAxis": "xy",
+							"translate": [0, -4, 1.5],
+							"boxes": [
+								{"coordinates": [-3.5, -6, -1, 3, 6, 3], "textureOffset": [862, 22]}
+							]
+						},
+						{
+							"id": "lbl_cave",
+							"invertAxis": "xy",
+							"translate": [0, 0, 3],
+							"boxes": [
+								{"coordinates": [-5, -10, -1, 5, 10, 5], "textureOffset": [934, 0]}
+							]
+						},
+						{
+							"id": "lbl_darkforest",
+							"invertAxis": "xy",
+							"translate": [0, -4, 5],
+							"boxes": [
+								{"coordinates": [-5, -6, -2, 5, 6, 4], "textureOffset": [786, 111]}
+							]
+						},
+						{
+							"id": "lbl_dripstone",
+							"invertAxis": "xy",
+							"translate": [0, -4, 2],
+							"boxes": [
+								{"coordinates": [-4, -6, -0.5, 4, 6, 4], "textureOffset": [832, 92]}
+							]
+						},
+						{
+							"id": "lbl_jungle",
+							"invertAxis": "xy",
+							"translate": [0, -5, 2],
+							"boxes": [
+								{"coordinates": [-4, -5, -1, 4, 5, 4], "textureOffset": [928, 105]}
+							]
+						},
+						{
+							"id": "lbl_snow",
+							"invertAxis": "xy",
+							"translate": [0, -2, 3],
+							"boxes": [
+								{"coordinates": [-5, -8, -1, 5, 8, 4], "textureOffset": [810, 231]},
+								{"coordinates": [-7, -6, 1, 2, 5, 0], "textureOffset": [768, 240]}
+							]
+						}
+					]
+				},
+				{
+					"id": "lbr",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"submodels": [
+						{
+							"id": "lbr_747",
+							"invertAxis": "xy",
+							"translate": [0, -3, 2],
+							"boxes": [
+								{"coordinates": [0, -7, 0, 4, 7, 4], "textureOffset": [788, 170]},
+								{"coordinates": [0, -7, 0, 4, 7, 4], "textureOffset": [928, 128]}
+							]
+						},
+						{
+							"id": "lbr_646",
+							"invertAxis": "xy",
+							"translate": [0, -4, 2],
+							"boxes": [
+								{"coordinates": [0, -6, 0, 4, 6, 4], "textureOffset": [992, 64]},
+								{"coordinates": [0, -6, 0, 4, 6, 4], "textureOffset": [960, 208]}
+							]
+						},
+						{
+							"id": "lbr_badlands",
+							"invertAxis": "xy",
+							"translate": [0, -3, 6],
+							"boxes": [
+								{"coordinates": [2, -7, -3, 5, 7, 5], "textureOffset": [808, 33]}
+							]
+						},
+						{
+							"id": "lbr_hills",
+							"invertAxis": "xy",
+							"translate": [0, -4, 3],
+							"boxes": [
+								{"coordinates": [2, -6, -1, 4, 6, 4], "textureOffset": [918, 227]}
+							]
+						},
+						{
+							"id": "lbr_shroom",
+							"invertAxis": "xy",
+							"translate": [0, -5, 2],
+							"boxes": [
+								{"coordinates": [0, -5, 0, 5, 5, 4], "textureOffset": [874, 128]}
+							]
+						},
+						{
+							"id": "lbr_savannah",
+							"invertAxis": "xy",
+							"translate": [0, -5, 4],
+							"boxes": [
+								{"coordinates": [0, -5, -2, 5, 5, 4], "textureOffset": [974, 166]}
+							]
+						},
+						{
+							"id": "lbr_desert",
+							"invertAxis": "xy",
+							"translate": [0, -3, 4],
+							"boxes": [
+								{"coordinates": [1, -7, -2, 4, 7, 4], "textureOffset": [960, 44]}
+							]
+						},
+						{
+							"id": "lbr_bamboo",
+							"invertAxis": "xy",
+							"translate": [0, -4, 1.5],
+							"boxes": [
+								{"coordinates": [0.5, -6, -1, 3, 6, 3], "textureOffset": [862, 31]}
+							]
+						},
+						{
+							"id": "lbr_cave",
+							"invertAxis": "xy",
+							"translate": [0, 0, 3],
+							"boxes": [
+								{"coordinates": [0, -10, -1, 5, 10, 5], "textureOffset": [934, 15]}
+							]
+						},
+						{
+							"id": "lbr_darkforest",
+							"invertAxis": "xy",
+							"translate": [0, -4, 5],
+							"boxes": [
+								{"coordinates": [0, -6, -2, 5, 6, 4], "textureOffset": [812, 72]}
+							]
+						},
+						{
+							"id": "lbr_dripstone",
+							"invertAxis": "xy",
+							"translate": [0, -4, 2],
+							"boxes": [
+								{"coordinates": [0, -6, -0.5, 4, 6, 4], "textureOffset": [860, 94]}
+							]
+						},
+						{
+							"id": "lbr_jungle",
+							"invertAxis": "xy",
+							"translate": [0, -5, 2],
+							"boxes": [
+								{"coordinates": [0, -5, -1, 4, 5, 4], "textureOffset": [896, 109]}
+							]
+						},
+						{
+							"id": "lbr_snow",
+							"invertAxis": "xy",
+							"translate": [0, -2, 3],
+							"boxes": [
+								{"coordinates": [0, -8, -1, 5, 8, 4], "textureOffset": [786, 235]},
+								{"coordinates": [5, -6, 1, 2, 5, 0], "textureOffset": [808, 202]}
+							]
+						}
+					]
+				},
+				{
+					"id": "lfl",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"submodels": [
+						{
+							"id": "lfl_747",
+							"invertAxis": "xy",
+							"translate": [0, -3, -2],
+							"boxes": [
+								{"coordinates": [-4, -7, -4, 4, 7, 4], "textureOffset": [768, 128]},
+								{"coordinates": [-4, -7, -4, 4, 7, 4], "textureOffset": [916, 144]}
+							]
+						},
+						{
+							"id": "lfl_646",
+							"invertAxis": "xy",
+							"translate": [0, -4, -2],
+							"boxes": [
+								{"coordinates": [-4, -6, -4, 4, 6, 4], "textureOffset": [980, 91]},
+								{"coordinates": [-4, -6, -4, 4, 6, 4], "textureOffset": [1000, 214]}
+							]
+						},
+						{
+							"id": "lfl_badlands",
+							"invertAxis": "xy",
+							"translate": [0, -3, -6],
+							"boxes": [
+								{"coordinates": [-7, -7, -2, 5, 7, 5], "textureOffset": [768, 33]}
+							]
+						},
+						{
+							"id": "lfl_hills",
+							"invertAxis": "xy",
+							"translate": [0, -4, -3],
+							"boxes": [
+								{"coordinates": [-6, -6, -3, 4, 6, 4], "textureOffset": [924, 217]}
+							]
+						},
+						{
+							"id": "lfl_shroom",
+							"invertAxis": "xy",
+							"translate": [0, -5, -2],
+							"boxes": [
+								{"coordinates": [-5, -5, -4, 5, 5, 4], "textureOffset": [864, 148]}
+							]
+						},
+						{
+							"id": "lfl_savannah",
+							"invertAxis": "xy",
+							"translate": [0, -5, -4],
+							"boxes": [
+								{"coordinates": [-5, -5, -2, 5, 5, 4], "textureOffset": [960, 160]}
+							]
+						},
+						{
+							"id": "lfl_desert",
+							"invertAxis": "xy",
+							"translate": [0, -3, -4],
+							"boxes": [
+								{"coordinates": [-5, -7, -2, 4, 7, 4], "textureOffset": [996, 20]}
+							]
+						},
+						{
+							"id": "lfl_bamboo",
+							"invertAxis": "xy",
+							"translate": [0, -4, -1.5],
+							"boxes": [
+								{"coordinates": [-3.5, -6, -2, 3, 6, 3], "textureOffset": [860, 4]}
+							]
+						},
+						{
+							"id": "lfl_cave",
+							"invertAxis": "xy",
+							"translate": [0, 0, -3],
+							"boxes": [
+								{"coordinates": [-5, -10, -4, 5, 10, 5], "textureOffset": [919, 27]}
+							]
+						},
+						{
+							"id": "lfl_darkforest",
+							"invertAxis": "xy",
+							"translate": [0, -4, -5],
+							"boxes": [
+								{"coordinates": [-5, -6, -2, 5, 6, 4], "textureOffset": [812, 107]}
+							]
+						},
+						{
+							"id": "lfl_dripstone",
+							"invertAxis": "xy",
+							"translate": [0, -4, -2],
+							"boxes": [
+								{"coordinates": [-4, -6, -3.5, 4, 6, 4], "textureOffset": [852, 78]}
+							]
+						},
+						{
+							"id": "lfl_jungle",
+							"invertAxis": "xy",
+							"translate": [0, -5, -2],
+							"boxes": [
+								{"coordinates": [-4, -5, -3, 4, 5, 4], "textureOffset": [936, 72]}
+							]
+						},
+						{
+							"id": "lfl_snow",
+							"invertAxis": "xy",
+							"translate": [0, -2, -3],
+							"boxes": [
+								{"coordinates": [-5, -8, -3, 5, 8, 4], "textureOffset": [768, 228]},
+								{"coordinates": [-7, -6, -1, 2, 5, 0], "textureOffset": [814, 225]}
+							]
+						}
+					]
+				},
+				{
+					"id": "lfr",
+					"invertAxis": "xy",
+					"translate": [0, 0, 0],
+					"submodels": [
+						{
+							"id": "lfr_747",
+							"invertAxis": "xy",
+							"translate": [0, -3, -2],
+							"boxes": [
+								{"coordinates": [0, -7, -4, 4, 7, 4], "textureOffset": [804, 170]},
+								{"coordinates": [0, -7, -4, 4, 7, 4], "textureOffset": [912, 155]}
+							]
+						},
+						{
+							"id": "lfr_646",
+							"invertAxis": "xy",
+							"translate": [0, -4, -2],
+							"boxes": [
+								{"coordinates": [0, -6, -4, 4, 6, 4], "textureOffset": [988, 75]},
+								{"coordinates": [0, -6, -4, 4, 6, 4], "textureOffset": [960, 208]}
+							]
+						},
+						{
+							"id": "lfr_badlands",
+							"invertAxis": "xy",
+							"translate": [0, -3, -6],
+							"boxes": [
+								{"coordinates": [2, -7, -2, 5, 7, 5], "textureOffset": [788, 33]}
+							]
+						},
+						{
+							"id": "lfr_hills",
+							"invertAxis": "xy",
+							"translate": [0, -4, -3],
+							"boxes": [
+								{"coordinates": [2, -6, -3, 4, 6, 4], "textureOffset": [928, 192]}
+							]
+						},
+						{
+							"id": "lfr_shroom",
+							"invertAxis": "xy",
+							"translate": [0, -5, -2],
+							"boxes": [
+								{"coordinates": [0, -5, -4, 5, 5, 4], "textureOffset": [832, 162]}
+							]
+						},
+						{
+							"id": "lfr_savannah",
+							"invertAxis": "xy",
+							"translate": [0, -5, -4],
+							"boxes": [
+								{"coordinates": [0, -5, -2, 5, 5, 4], "textureOffset": [974, 166]}
+							]
+						},
+						{
+							"id": "lfr_desert",
+							"invertAxis": "xy",
+							"translate": [0, -3, -4],
+							"boxes": [
+								{"coordinates": [1, -7, -2, 4, 7, 4], "textureOffset": [996, 31]}
+							]
+						},
+						{
+							"id": "lfr_bamboo",
+							"invertAxis": "xy",
+							"translate": [0, -4, -1.5],
+							"boxes": [
+								{"coordinates": [0.5, -6, -2, 3, 6, 3], "textureOffset": [862, 13]}
+							]
+						},
+						{
+							"id": "lfr_cave",
+							"invertAxis": "xy",
+							"translate": [0, 0, -3],
+							"boxes": [
+								{"coordinates": [0, -10, -4, 5, 10, 5], "textureOffset": [896, 32]}
+							]
+						},
+						{
+							"id": "lfr_darkforest",
+							"invertAxis": "xy",
+							"translate": [0, -4, -5],
+							"boxes": [
+								{"coordinates": [0, -6, -2, 5, 6, 4], "textureOffset": [768, 111]}
+							]
+						},
+						{
+							"id": "lfr_dripstone",
+							"invertAxis": "xy",
+							"translate": [0, -4, -2],
+							"boxes": [
+								{"coordinates": [0, -6, -3.5, 4, 6, 4], "textureOffset": [848, 88]}
+							]
+						},
+						{
+							"id": "lfr_jungle",
+							"invertAxis": "xy",
+							"translate": [0, -5, -2],
+							"boxes": [
+								{"coordinates": [0, -5, -3, 4, 5, 4], "textureOffset": [912, 105]}
+							]
+						},
+						{
+							"id": "lfr_snow",
+							"invertAxis": "xy",
+							"translate": [0, -2, -3],
+							"boxes": [
+								{"coordinates": [0, -8, -3, 5, 8, 4], "textureOffset": [796, 223]},
+								{"coordinates": [5, -6, -1, 2, 5, 0], "textureOffset": [804, 243]}
+							]
+						}
+					]
+				}
+			],
+			"animations": [
+				{
+					"lbl_747.rx": "leg1.rx",
+					"lbr_747.rx": "leg2.rx",
+					"lfl_747.rx": "leg3.rx",
+					"lfr_747.rx": "leg4.rx",
+					"lbl_646.rx": "leg1.rx",
+					"lbr_646.rx": "leg2.rx",
+					"lfl_646.rx": "leg3.rx",
+					"lfr_646.rx": "leg4.rx",
+					"lbl_badlands.rx": "leg1.rx",
+					"lbr_badlands.rx": "leg2.rx",
+					"lfl_badlands.rx": "leg3.rx",
+					"lfr_badlands.rx": "leg4.rx",
+					"lbl_hills.rx": "leg1.rx",
+					"lbr_hills.rx": "leg2.rx",
+					"lfl_hills.rx": "leg3.rx",
+					"lfr_hills.rx": "leg4.rx",
+					"lbl_shroom.rx": "leg1.rx",
+					"lbr_shroom.rx": "leg2.rx",
+					"lfl_shroom.rx": "leg3.rx",
+					"lfr_shroom.rx": "leg4.rx",
+					"lbl_savannah.rx": "leg1.rx",
+					"lbr_savannah.rx": "leg2.rx",
+					"lfl_savannah.rx": "leg3.rx",
+					"lfr_savannah.rx": "leg4.rx",
+					"lbl_desert.rx": "leg1.rx",
+					"lbr_desert.rx": "leg2.rx",
+					"lfl_desert.rx": "leg3.rx",
+					"lfr_desert.rx": "leg4.rx",
+					"lbl_bamboo.rx": "leg1.rx",
+					"lbr_bamboo.rx": "leg2.rx",
+					"lfl_bamboo.rx": "leg3.rx",
+					"lfr_bamboo.rx": "leg4.rx",
+					"lbl_cave.rx": "leg1.rx",
+					"lbr_cave.rx": "leg2.rx",
+					"lfl_cave.rx": "leg3.rx",
+					"lfr_cave.rx": "leg4.rx",
+					"lbl_darkforest.rx": "leg1.rx",
+					"lbr_darkforest.rx": "leg2.rx",
+					"lfl_darkforest.rx": "leg3.rx",
+					"lfr_darkforest.rx": "leg4.rx",
+					"lbl_dripstone.rx": "leg1.rx",
+					"lbr_dripstone.rx": "leg2.rx",
+					"lfl_dripstone.rx": "leg3.rx",
+					"lfr_dripstone.rx": "leg4.rx",
+					"lbl_jungle.rx": "leg1.rx",
+					"lbr_jungle.rx": "leg2.rx",
+					"lfl_jungle.rx": "leg3.rx",
+					"lfr_jungle.rx": "leg4.rx",
+					"lbl_snow.rx": "leg1.rx",
+					"lbr_snow.rx": "leg2.rx",
+					"lfl_snow.rx": "leg3.rx",
+					"lfr_snow.rx": "leg4.rx"
+				},
+				{
+					"head_y3.rx": "if(limb_speed>=0.25,torad(5)+0.2*sin(age/2.8)+head.rx,torad(5)+0.06*sin(age/5.6)+head.rx)",
+					"head_y3.ry": "head.ry",
+					"head_y3.ty": "if(limb_speed>=0.25,-2.7+0.08*sin(age/2.8),-2.7+0.08*sin(age/5.6))",
+					"head_y3.rz": "head.rz",
+					"head_y3.tz": "if(limb_speed>=0.25,-0.5+1*-sin(age/2.8),-0.7+0.08*-sin(age/5.6))",
+					"head_y4_beach.rx": "if(limb_speed>=0.25,torad(5)+0.2*sin(age/2.8)+head.rx,torad(5)+0.06*sin(age/5.6)+head.rx)",
+					"head_y4_beach.ry": "head.ry",
+					"head_y4_beach.ty": "if(limb_speed>=0.25,-3.7+0.08*sin(age/2.8),-3.7+0.08*sin(age/5.6))",
+					"head_y4_beach.rz": "head.rz",
+					"head_y4_beach.tz": "if(limb_speed>=0.25,-0.5+1*-sin(age/2.8),-0.7+0.08*-sin(age/5.6))",
+					"head_y5.rx": "if(limb_speed>=0.25,torad(5)+0.2*sin(age/2.8)+head.rx,torad(5)+0.06*sin(age/5.6)+head.rx)",
+					"head_y5.ry": "head.ry",
+					"head_y5.ty": "if(limb_speed>=0.25,-4.7+0.08*sin(age/2.8),-4.7+0.08*sin(age/5.6))",
+					"head_y5.rz": "head.rz",
+					"head_y5.tz": "if(limb_speed>=0.25,-0.5+1*-sin(age/2.8),-0.7+0.08*-sin(age/5.6))",
+					"head_y7.rx": "if(limb_speed>=0.25,torad(5)+0.2*sin(age/2.8)+head.rx,torad(5)+0.06*sin(age/5.6)+head.rx)",
+					"head_y7.ry": "head.ry",
+					"head_y7.ty": "if(limb_speed>=0.25,-6.7+0.08*sin(age/2.8),-6.7+0.08*sin(age/5.6))",
+					"head_y7.rz": "head.rz",
+					"head_y7.tz": "if(limb_speed>=0.25,-0.5+1*-sin(age/2.8),-0.7+0.08*-sin(age/5.6))",
+					"head_y8_plains.rx": "if(limb_speed>=0.25,torad(5)+0.2*sin(age/2.8)+head.rx,torad(5)+0.06*sin(age/5.6)+head.rx)",
+					"head_y8_plains.ry": "head.ry",
+					"head_y8_plains.ty": "if(limb_speed>=0.25,-7.7+0.08*sin(age/2.8),-7.7+0.08*sin(age/5.6))",
+					"head_y8_plains.rz": "head.rz",
+					"head_y8_plains.tz": "if(limb_speed>=0.25,-0.5+1*-sin(age/2.8),-0.7+0.08*-sin(age/5.6))",
+					"head_y15_bamboo.rx": "if(limb_speed>=0.25,0.125*sin(age/2.8)+head.rx,0.06*sin(age/5.6)+head.rx)",
+					"head_y15_bamboo.ry": "head.ry",
+					"head_y15_bamboo.rz": "if(limb_speed>=0.25,0.125*sin(age/2.8)+head.rz,0)"
+				},
+				{
+					"body_y1_cave.rx": "if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))",
+					"body_y1_cave.ty": "0.3+0.08*sin(age/5.6)",
+					"body_y3.rx": "if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))",
+					"body_y3.ty": "2.3+0.08*sin(age/5.6)",
+					"body_y4_plains.rx": "if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))",
+					"body_y4_plains.ty": "3.3+0.08*sin(age/5.6)",
+					"body_y4_5_darkforest.rx": "if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))",
+					"body_y4_5_darkforest.ty": "3.8+0.08*sin(age/5.6)",
+					"body_y5.rx": "if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))",
+					"body_y5.ty": "4.3+0.08*sin(age/5.6)",
+					"body_y6.rx": "if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))",
+					"body_y6.ty": "5.3+0.08*sin(age/5.6)",
+					"body_y7_hills.rx": "if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))",
+					"body_y7_hills.ty": "6.3+0.08*sin(age/5.6)",
+					"savannah_parts.rx": "torad(3)+0.02*sin(age/5.6)",
+					"savannah_parts.ty": "4.3+0.08*sin(age/5.6)",
+					"savannah_parts.rz": "if(limb_speed>=0.25,0.1*sin(age/2.8),0)",
+					"bamboo_parts.rx": "if(limb_speed>=0.25,torad(5)+0.1*sin(age/2.8),torad(3)+0.02*sin(age/5.6))",
+					"bamboo_parts.rz": "if(limb_speed>=0.25,0.1*sin(age/2.8),0)"
+				}
+			]
+		}
+	]
+}
